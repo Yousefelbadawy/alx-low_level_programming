@@ -1,6 +1,3 @@
-_putchar.c CODE
-
-
 #include "main.h"
 	#include <unistd.h>
 	/**
@@ -14,6 +11,8 @@ _putchar.c CODE
 	{
 		return (write(1, &c, 1));
 	}
+
+
 
 
 
